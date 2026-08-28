@@ -384,7 +384,7 @@ section{padding:96px 0;}
   background:var(--paper);
   border:1px solid var(--line);
   padding:32px;
-  display:flex;flex-direction:column;gap:20px;
+  display:flex;flex-direction:column;gap:30px;
   align-items:flex-start;
 }
 .director-photo{
