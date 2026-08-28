@@ -290,7 +290,7 @@ section{padding:96px 0;}
   transition:background .25s ease;
 }
 @media (min-width:720px){
-  .rack-row{grid-template-columns:64px 260px 1fr;}
+  .rack-row{grid-template-columns:64px minmax(280px, max-content) 1fr; gap:40px;}
 }
 .rack-row:hover{background:var(--brand-pale);}
 .rack-row .u-tag{
